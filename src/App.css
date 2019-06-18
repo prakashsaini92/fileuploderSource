@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+main{ background: #fff;}
+
+.App-link {
+  color: #61dafb;
+}
+
+.fileUplods {
+  text-align: left;
+  background: #deb028;
+  padding: 5px 34px 6px;
+  height: 45px;
+  position: absolute;
+  border: 1px solid #b78f1a;
+  bottom: 2%;
+  right: 5%;
+  left: 5%;
+  border-radius: 7px;
+}.fileUplods i {
+  font-size: 26px;
+  padding: 0px 8px;
+  position: relative;
+  top: 4px;
+}.fileUplods p {
+  font-size: 16px;
+  font-weight: 500;
+  color:#fff;
+  text-align: center;
+}.fileUplods input {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: auto;
+}
+.NavLeftPanel {
+  float: left;
+  position: absolute;
+  left: 0;
+  background: #225082;
+  bottom: 0;
+  top: 0;
+  width: 330px;
+}
+/* .react-pdf__Page canvas, .react-pdf__Page canvas + div {
+  width: 100% !important;
+  height: auto !important;
+} */
+.contentPanel {
+  left: 330px;
+  right: 0;
+  top: 0px;
+  bottom: 0;
+  overflow: auto;
+  padding: 16px;
+  position: absolute;
+}header h1 i {
+  padding: 0 8px;
+}
+header h1 {
+  font-size: 24px;
+  color: #fff;
+}
+header {
+  background: #174577;
+  padding: 11px 15px;
+}button.next_btnAdded {
+  float: right;
+  padding: 3px 11px;
+  font-size: 13px;
+  background: #deb028;
+  border: 1px solid #b38b15;}
+  nav ul li {
+    color: #fff;
+    padding: 9px 22px;
+    font-size: 17px;
+    border-bottom: 1px solid #4b6e94;
+}nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
